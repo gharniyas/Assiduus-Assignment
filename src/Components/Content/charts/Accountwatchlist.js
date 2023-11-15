@@ -59,7 +59,7 @@ const datasource = [
 const AccountWatchlist = () => {
   return (
     
-    <ChartContainer headerContent={<header style={{marginTop:"5px"}}>Account Watchlist</header>}>
+    <ChartContainer headerContent={<header style={{marginTop:"4px"}}>Account Watchlist</header>}>
       <div style={{flex: 1, height: '1px', backgroundColor: '#D3D3D3' }} />
       <Table columns={columns} dataSource={datasource} pagination={false}  />
     </ChartContainer>
