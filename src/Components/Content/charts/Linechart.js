@@ -17,7 +17,7 @@ const LineChart = ({ currentMonth, setCurrentMonth, data }) => {
         : [];
       // console.log(filteredData, ":data1");
       const margin = { top: 20, right: 120, bottom: 30, left: 10 };
-      const width = 800 - margin.left - margin.right;
+      const width = 750 - margin.left - margin.right;
       const height = 220 - margin.top - margin.bottom;
 
       const svg = d3
