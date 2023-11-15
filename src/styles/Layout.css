@@ -1,0 +1,74 @@
+.ant-layout{
+    height: 100vh !important;
+    background-color: white !important;
+    overflow: hidden;   
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    
+}
+.userLogo{
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.bellIcon{
+    font-size: 30px;
+}
+.inputSearch{
+border: none;
+background-color: #a1a1a538;
+}
+.ant-input {
+background-color: #a1a1a500;
+}
+.contentChart{
+    padding: 20px;
+    padding-bottom: 30px;
+    height: min-content;
+    background-color: #a1a1a542;
+}
+.dropdown{
+    width: 30px;
+    height:30px;
+}
+.ant-menu-item-active, .ant-menu-item-selected{
+    background-color: #43a903 !important;
+    color: #ffffff !important;
+    text-shadow: #000000 !important;
+    
+}
+.ant-menu-item{
+border-radius: 0 !important;
+}
+
+.chart-container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 49%;
+    max-height: 49%;
+     
+}
+.chart-container-header{
+    padding: 8px;
+    padding-bottom: 20px;
+    
+    
+}
